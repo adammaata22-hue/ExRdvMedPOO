@@ -6,6 +6,7 @@ namespace ExRdvMedPOO.modele
 {
     public class Patient
     {
+        private List<Rendez_vous> LesRendezVous;
         private int idPatient;
         private string nom;
         private string prenom;

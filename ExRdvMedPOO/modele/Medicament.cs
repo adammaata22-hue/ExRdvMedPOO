@@ -29,6 +29,13 @@ namespace ExRdvMedPOO.modele
         public string Code { get => code; set => code = value; }
         public string Libelle { get => libelle; set => libelle = value; }
         public string Description { get => description; set => description = value; }
+
+
+        public int RetourneNbDiagnostic()
+        {
+            return LesDiagnostics.Count;
+        }
+
     }
 
      
